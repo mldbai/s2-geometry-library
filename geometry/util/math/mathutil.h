@@ -106,7 +106,7 @@ class MathUtil {
     // Discriminants below kTolerance in absolute value are considered zero
     // because changing the final bit of one of the inputs can change the
     // sign of the discriminant.
-    const double kTolerance = epsilon * max(fabs(2 * b * b), fabs(4 * a * c));
+    const double kTolerance = epsilon * max<long double>(fabs(2 * b * b), fabs(4 * a * c));
     return (fabs(discriminant) <= kTolerance);
   }
 
