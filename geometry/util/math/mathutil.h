@@ -13,8 +13,6 @@ using std::min;
 using std::max;
 using std::swap;
 using std::reverse;
-using std::isnan;
-using std::isinf;
 
 #include <vector>
 using std::vector;
